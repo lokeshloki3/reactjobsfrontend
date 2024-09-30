@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactjobsfrontend/static/css/main.f3f23ff4.css",
+    "main.js": "/reactjobsfrontend/static/js/main.10413302.js",
+    "index.html": "/reactjobsfrontend/index.html",
+    "main.f3f23ff4.css.map": "/reactjobsfrontend/static/css/main.f3f23ff4.css.map",
+    "main.10413302.js.map": "/reactjobsfrontend/static/js/main.10413302.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3f23ff4.css",
+    "static/js/main.10413302.js"
+  ]
+}
