@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import HomePage from './pages/HomePage'
+import MainLayout from './layouts/MainLayout'
+import JobsPage from './pages/JobsPage'
+import NotFoundPage from './pages/NotFoundPage'
+import AddJobPage from './pages/AddJobPage'
+import JobPage from './pages/JobPage'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+        <Route path='/' element={<MainLayout />}>
+          <Route index element={<HomePage />}/>
+          <Route path='/jobs' element={<JobsPage />}/>
+          <Route path='/reactjobsroute' element={<JobsPage />}/>
+          <Route path='/add-job' element={<AddJobPage />} />
+          <Route path='/jobs/:id' element={<JobPage />}/>
+          <Route path='*' element={<NotFoundPage />}/>
+        </Route>
+    </Routes>
   );
 }
 
