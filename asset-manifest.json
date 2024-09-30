@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/reactjobsfrontend/static/css/main.f3f23ff4.css",
-    "main.js": "/reactjobsfrontend/static/js/main.04fdaf4f.js",
+    "main.js": "/reactjobsfrontend/static/js/main.d97b0538.js",
     "index.html": "/reactjobsfrontend/index.html",
     "main.f3f23ff4.css.map": "/reactjobsfrontend/static/css/main.f3f23ff4.css.map",
-    "main.04fdaf4f.js.map": "/reactjobsfrontend/static/js/main.04fdaf4f.js.map"
+    "main.d97b0538.js.map": "/reactjobsfrontend/static/js/main.d97b0538.js.map"
   },
   "entrypoints": [
     "static/css/main.f3f23ff4.css",
-    "static/js/main.04fdaf4f.js"
+    "static/js/main.d97b0538.js"
   ]
 }
