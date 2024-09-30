@@ -12,7 +12,7 @@ function App() {
         <Route path='/' element={<MainLayout />}>
           <Route index element={<HomePage />}/>
           <Route path='/jobs' element={<JobsPage />}/>
-          <Route path='/reactjobsfrontend' element={<JobsPage />}/>
+          <Route path='/reactjobsfrontend' element={<HomePage/>}/>
           <Route path='/add-job' element={<AddJobPage />} />
           <Route path='/jobs/:id' element={<JobPage />}/>
           <Route path='*' element={<NotFoundPage />}/>
