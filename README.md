@@ -5,8 +5,6 @@ Steps to run the code in VS Code -
 
 Demo site - https://lokeshloki3.github.io/reactjobsfrontend/
 
-Demo - https://lokeshloki3.github.io/shoppingcartreact/
-
 Steps to run on VS Code - 
 
 Install Tailwind PostCSS method -
