@@ -24,13 +24,24 @@ STEPS:
 4. Install tailwind css intellisense extension. [IGNORE IF ALREADY INSTALLED]
 
 5. Add "./src/**/*.{js,jsx,ts,tsx}" in content in [ tailwind.config.js ] file.
+6. And also extend theme
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+      },
+      gridTemplateColumns: {
+        '70/30': '70% 28%',
+      },
+    },
+  },
 
-6. Open src/index.css or src/App.css and insert: 
+7. Open src/index.css or src/App.css and insert: 
 	@tailwind base;
 	@tailwind components;
 	@tailwind utilities;
 
-7. Run command to go live:
+8. Run command to go live:
 	A. npm run start
 	
 (Close and again open VS Code for className suggestions)
